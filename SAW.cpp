@@ -45,4 +45,13 @@ int main(){
 		}cout <<endl;
 	}
 	cout << endl;
+
+	//Hasil Akhir
+	cout << "HASIL AKHIR :"<<endl;
+	for(int i=0;i <3;i ++){
+		cout<<"Hasil "<<i+1<<" = "<<RWa[i][1]+RWa[i][2]+RWa[i][3]+RWa[i][4]<<endl;
+	}
+	cout <<endl;
+}
+
 	
