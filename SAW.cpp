@@ -11,7 +11,9 @@ int main(){
 		for(int j=0;j<5;j++){
 			cout << ac[i][j] << " | ";
 		}cout<<endl;
-	}// Akhir dari Matrix 
+	}// Akhir dari Matrix X
+	
+	// Mengambil nilai max tiap krateria
 	cout <<endl<< "MATRIKS R : "<<endl;	
 	double mc[5];
 	for(int i=0;i<5;i++){
@@ -29,6 +31,7 @@ int main(){
 			cout << Rac[i][j] << " | ";
 		}cout<<endl;
 	}// Akhir Matrix R
+	
 	// 3# Bobot W - Tampilkan Nilai
 	cout <<endl<< "BOBOT W : "<<endl;
 	double w[5]={5,3,4,4,2};
@@ -45,7 +48,7 @@ int main(){
 		}cout <<endl;
 	}
 	cout << endl;
-
+	
 	//Hasil Akhir
 	cout << "HASIL AKHIR :"<<endl;
 	for(int i=0;i <3;i ++){
@@ -53,5 +56,3 @@ int main(){
 	}
 	cout <<endl;
 }
-
-	
